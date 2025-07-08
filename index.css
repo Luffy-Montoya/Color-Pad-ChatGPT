@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+main {
+    align-content: center;
+    height: 100%;
+    background: rgb(130,130,150);
+    justify-items: center;
+}
+
+section {
+    background: rgb(230,230,230);
+    justify-items: center;
+    height: fit-content;
+    padding: 20px 15px 30px;
+    border: 2px solid rgb(0,0,0,.6);
+    box-shadow: 0 3px 7px rgb(0,0,0,.5);
+    margin-top: -50px;
+    border-radius: 7px;
+}
+
+header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(65,65,65);
+    font-family: sans-serif;
+    text-shadow: 0 2px 4px rgb(140,140,160)
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: rgb(70,70,70);
+    font-weight: normal;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    max-width: 450px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.buttonsContainer > div{
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .15s;
+    border: 2px solid rgb(0,0,0, .5);
+}
+
+.red {
+    background-color: red;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px rgb(255,50,50);
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px rgb(50,50,255);
+}
+
+.yellow {
+    background-color: rgb(245,245,0);
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px rgb(150,150,0);
+}
+
+.green {
+    background-color: green;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px rgb(50,128,50);
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px rgb(128,50,128);
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px rgb(200, 125, 0);
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 15px brown;
+}
+
+.gray {
+    background-color: lightgray;
+    color: black;
+    text-shadow: none;
+    box-shadow: 0 4px 7px rgb(0,0,0, .75)
+}
